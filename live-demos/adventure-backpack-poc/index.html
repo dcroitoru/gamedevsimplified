@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Unity WebGL Player | inventory-system-2</title>
+    <title>Unity WebGL Player | inventory-system</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico" />
     <link rel="stylesheet" href="TemplateData/style.css" />
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width="960" height="600" tabindex="-1"></canvas>
+      <canvas id="unity-canvas" width="960" height="540" tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">inventory-system-2</div>
+        <div id="unity-build-title">inventory-system</div>
       </div>
     </div>
     <script>
@@ -58,12 +58,12 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/poc-web.loader.js";
       var config = {
-        dataUrl: buildUrl + "/poc-web.data.gz",
-        frameworkUrl: buildUrl + "/poc-web.framework.js.gz",
-        codeUrl: buildUrl + "/poc-web.wasm.gz",
+        dataUrl: buildUrl + "/poc-web.data",
+        frameworkUrl: buildUrl + "/poc-web.framework.js",
+        codeUrl: buildUrl + "/poc-web.wasm",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "inventory-system-2",
+        companyName: "GDS",
+        productName: "inventory-system",
         productVersion: "0.1",
         showBanner: unityShowBanner,
       };
