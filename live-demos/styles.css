@@ -1,0 +1,11 @@
+.short-description {
+  font-family: Roboto, Arial, sans-serif;
+  margin: 0 auto;
+  width: 960px;
+  margin-top: 150px;
+  text-align: center;
+}
+
+h3 {
+  font-weight: 100;
+}
